@@ -2,7 +2,8 @@ def line(queue)
   if queue[0] === nil
     puts "The line is currently empty."
   else
-    puts "The line is currently: #{queue}"
+    queue.each_with_index { |person, index| line << "#{index}. #{person} "}
+    puts "The line is currently: #{line}"
   end
 end
 
