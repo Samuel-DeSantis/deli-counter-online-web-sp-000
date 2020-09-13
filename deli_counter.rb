@@ -13,5 +13,5 @@ def take_a_number(queue, name)
 end
 
 def now_serving
-  puts "Currently serving #{array.shift.split(". ")[1]}"
+  puts "Currently serving #{array.shift}"
 end
