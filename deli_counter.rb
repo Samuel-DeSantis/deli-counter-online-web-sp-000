@@ -1,8 +1,8 @@
 def line(queue)
   if queue[0] === nil
-    return "The line is currently empty."
+    puts "The line is currently empty."
   else
-    return "The line is currently: #{queue}"
+    puts "The line is currently: #{queue}"
   end
 end
 
