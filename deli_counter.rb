@@ -8,9 +8,8 @@ def line(queue)
 end
 
 def take_a_number(queue, name)
-  position = queue.length + 1
   queue << name
-  puts "Welcome, #{name}. You are number #{position} in line."
+  puts "Welcome, #{name}. You are number #{queue.length + 1} in line."
 end
 
 def now_serving(queue)
