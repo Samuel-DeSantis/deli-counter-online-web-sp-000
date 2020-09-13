@@ -1,7 +1,7 @@
 def line(queue)
   if queue[0] === nil
     return "The line is currently empty."
-  elsif 
+  elsif
   else
   end
 end
