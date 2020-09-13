@@ -8,7 +8,7 @@ end
 
 def take_a_number(queue, name)
   position = queue.length + 1
-  queue << "#{position}. #{name}"
+  queue << name
   puts "Welcome, #{name}. You are number #{position} in line."
 end
 
